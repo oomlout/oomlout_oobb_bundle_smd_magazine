@@ -1,0 +1,119 @@
+{
+    "description": "smd magazine label holder 5x0x10",
+    "id": "oobb_smd_magazine_label_holder_05_10_nm_8_mm_tape_width_8_mm_x_36_mm_label",
+    "type": "smd_magazine_label_holder",
+    "width": 5,
+    "thickness": 10,
+    "name": "8_mm_tape_width_8_mm_x_36_mm_label",
+    "width_mm": 74,
+    "thickness_mm": 10,
+    "components": [
+        {
+            "type": "p",
+            "shape": "cube",
+            "size": [
+                40,
+                10,
+                2
+            ],
+            "pos": [
+                -20.0,
+                -5.0,
+                0
+            ],
+            "m": ""
+        },
+        {
+            "type": "n",
+            "shape": "cube",
+            "size": [
+                36,
+                6,
+                2
+            ],
+            "pos": [
+                -18.0,
+                -3.0,
+                0
+            ],
+            "m": ""
+        },
+        {
+            "type": "n",
+            "shape": "cube",
+            "size": [
+                39,
+                8,
+                1
+            ],
+            "pos": [
+                -20.0,
+                -4.0,
+                1
+            ],
+            "m": ""
+        },
+        [
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 1.5,
+                "h": 20,
+                "pos": [
+                    -30.0,
+                    0,
+                    9
+                ],
+                "rotY": 90,
+                "inclusion": "laser",
+                "m": "#",
+                "depth": 20
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 1.8,
+                "h": 20,
+                "pos": [
+                    -30.0,
+                    0,
+                    9
+                ],
+                "rotY": 90,
+                "inclusion": "3dpr",
+                "m": "#",
+                "depth": 20
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 1.5,
+                "h": 20,
+                "pos": [
+                    -30.0,
+                    0,
+                    9
+                ],
+                "rotY": 90,
+                "inclusion": "true",
+                "m": "#",
+                "depth": 20
+            }
+        ],
+        {
+            "type": "p",
+            "shape": "cube",
+            "size": [
+                3,
+                10,
+                15
+            ],
+            "pos": [
+                -23.0,
+                -5.0,
+                0
+            ],
+            "m": ""
+        }
+    ]
+}

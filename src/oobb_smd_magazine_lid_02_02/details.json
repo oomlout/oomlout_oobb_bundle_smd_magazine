@@ -1,0 +1,148 @@
+{
+    "description": "smd magazine lid 2x2x0",
+    "id": "oobb_smd_magazine_lid_02_02",
+    "type": "smd_magazine_lid",
+    "width": 2,
+    "height": 2,
+    "width_mm": 29,
+    "height_mm": 29,
+    "components": [
+        {
+            "type": "p",
+            "shape": "rounded_rectangle",
+            "size": [
+                29,
+                29,
+                0.6
+            ],
+            "pos": [
+                -7.5,
+                0,
+                0
+            ],
+            "height": 2,
+            "width": 2,
+            "m": ""
+        },
+        {
+            "type": "p",
+            "shape": "rounded_rectangle",
+            "size": [
+                29,
+                14,
+                0.6
+            ],
+            "pos": [
+                0.0,
+                -7.5,
+                0
+            ],
+            "height": 1,
+            "width": 2,
+            "m": ""
+        },
+        [
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 3.0,
+                "h": 250,
+                "pos": [
+                    7.5,
+                    -7.5,
+                    -125.0
+                ],
+                "inclusion": "laser",
+                "m": ""
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 3.25,
+                "h": 250,
+                "pos": [
+                    7.5,
+                    -7.5,
+                    -125.0
+                ],
+                "inclusion": "3dpr",
+                "m": ""
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 3.0,
+                "h": 250,
+                "pos": [
+                    7.5,
+                    -7.5,
+                    -125.0
+                ],
+                "inclusion": "true",
+                "m": ""
+            }
+        ],
+        {
+            "type": "p",
+            "shape": "cube",
+            "size": [
+                6,
+                6,
+                0.6
+            ],
+            "pos": [
+                -22.0,
+                8.5,
+                0
+            ],
+            "m": ""
+        },
+        [
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 6.5,
+                "radius": 6.5,
+                "h": 0.6,
+                "pos": [
+                    -7.5,
+                    0,
+                    0.0
+                ],
+                "inclusion": "laser",
+                "m": "",
+                "depth": 0.6
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 6.5,
+                "radius": 6.5,
+                "h": 0.6,
+                "pos": [
+                    -7.5,
+                    0,
+                    0.0
+                ],
+                "inclusion": "3dpr",
+                "m": "",
+                "depth": 0.6
+            },
+            {
+                "type": "n",
+                "shape": "cylinder",
+                "r": 6.5,
+                "radius": 6.5,
+                "h": 0.6,
+                "pos": [
+                    -7.5,
+                    0,
+                    0.0
+                ],
+                "inclusion": "true",
+                "m": "",
+                "depth": 0.6
+            }
+        ]
+    ]
+}
